@@ -1,0 +1,11 @@
+[Bb]in/
+[Oo]bj/
+[Oo]utput/
+[Tt]emp/
+[Cc]ache/
+[Ww]wwroot/
+.vs/
+.vscode/
+.idea/
+*.user
+.env

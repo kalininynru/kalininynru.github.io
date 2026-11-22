@@ -1,0 +1,15 @@
+@using Statiq.Common
+@model Statiq.Common.IDocument
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@Model.GetString("Title")</title>
+</head>
+<body>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>
